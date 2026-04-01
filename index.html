@@ -578,7 +578,7 @@
     btn.disabled = true;
 
     try {
-      await fetch('http://207.148.27.190:5001/api/intake', {
+      await fetch('https://api.weblaunchmd.com/api/intake', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
